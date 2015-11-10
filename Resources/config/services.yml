@@ -1,0 +1,6 @@
+services:
+    qbbr.form.type.entity_hidden:
+        class: Qbbr\EntityHiddenTypeBundle\Form\Type\EntityHiddenType
+        arguments: ["@doctrine.orm.entity_manager"]
+        tags:
+            - { name: form.type, alias: entity_hidden }

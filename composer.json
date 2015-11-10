@@ -1,0 +1,22 @@
+{
+    "name": "qbbr/entity-hidden-type-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony 2 entity hidden form type",
+    "keywords": ["symfony", "form", "type", "entity", "hidden"],
+    "homepage": "https://github.com/Qbbr/EntityHiddenTypeBundle/",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Sokolov Innokenty",
+            "homepage": "https://github.com/Qbbr/"
+        }
+    ],
+    "require" : {
+        "php": ">=5.4.0",
+        "symfony/framework-bundle": ">=2.3"
+    },
+    "autoload": {
+        "psr-4": { "Qbbr\\EntityHiddenTypeBundle\\": "" }
+    }
+}
