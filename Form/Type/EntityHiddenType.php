@@ -5,8 +5,9 @@ namespace Qbbr\EntityHiddenTypeBundle\Form\Type;
 use Symfony\Component\Form\AbstractType;
 use Qbbr\EntityHiddenTypeBundle\Form\DataTransformer\EntityToIdTransformer;
 use Symfony\Component\Form\FormBuilderInterface;
-use Symfony\Component\OptionsResolver\OptionsResolverInterface;
+use Symfony\Component\OptionsResolver\OptionsResolver;
 use Doctrine\Common\Persistence\ObjectManager;
+use Symfony\Component\Form\Extension\Core\Type\HiddenType;
 
 class EntityHiddenType extends AbstractType
 {
@@ -26,7 +27,7 @@ class EntityHiddenType extends AbstractType
         $builder->addModelTransformer($transformer);
     }
 
-    public function setDefaultOptions(OptionsResolverInterface $resolver)
+    public function configureOptions(OptionsResolver $resolver)
     {
         $resolver
             ->setRequired(['class'])
@@ -38,11 +39,6 @@ class EntityHiddenType extends AbstractType
 
     public function getParent()
     {
-        return 'hidden';
-    }
-
-    public function getName()
-    {
-        return 'entity_hidden';
+        return HiddenType::class;
     }
 }
