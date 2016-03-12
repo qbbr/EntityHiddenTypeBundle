@@ -8,13 +8,13 @@
 
 ### Step 1: Download the Bundle
 
-### Symfony >= 2.8
+#### Symfony >= 2.8
 
 ```bash
 $ composer require qbbr/entity-hidden-type-bundle
 ```
 
-### Symfony < 2.8
+#### Symfony < 2.8
 
 ```bash
 $ composer require qbbr/entity-hidden-type-bundle 1.*
