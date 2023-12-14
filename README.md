@@ -3,7 +3,6 @@
 [![Latest Stable Version](https://poser.pugx.org/qbbr/entity-hidden-type-bundle/v/stable)](https://packagist.org/packages/qbbr/entity-hidden-type-bundle)
 [![Total Downloads](https://poser.pugx.org/qbbr/entity-hidden-type-bundle/downloads)](https://packagist.org/packages/qbbr/entity-hidden-type-bundle)
 [![License](https://poser.pugx.org/qbbr/entity-hidden-type-bundle/license)](https://packagist.org/packages/qbbr/entity-hidden-type-bundle)
-[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
 
 ## Installation
 
